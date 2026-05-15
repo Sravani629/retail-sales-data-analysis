@@ -1,26 +1,43 @@
 # retail-sales-data-analysis
 Retail Sales Data Analysis Dashboard using Python and Excel
 # Retail Sales Data Analysis Dashboard
+# Retail Sales Data Analysis Project
 
-## Project Overview
-This project analyzes retail sales data using Python and Excel to identify sales trends, customer insights, and monthly revenue performance.
+## Overview
+This project focuses on analyzing retail sales data using Python and Excel to understand sales trends, customer behavior, and category performance.
 
-## Features
-- Sales trend analysis
-- Revenue reporting
-- Customer insights
-- Data cleaning
-- Dashboard reporting
+## Dataset
+The dataset contains:
+- Date of purchase
+- Product name
+- Category
+- Sales amount
+- Quantity sold
 
-## Tools Used
+## Tools & Technologies
 - Python
-- Excel
-- CSV
 - Pandas
+- Excel
+- GitHub
 
-## Skills Demonstrated
-- Data Analysis
-- Reporting
-- Data Validation
-- Analytical Thinking
-- Dashboard Concepts
+## Key Analysis Performed
+- Total sales calculation
+- Category-wise sales comparison
+- Top-selling products identification
+- Basic data exploration using Pandas
+
+## How to Run
+1. Clone the repository:
+   git clone https://github.com/Sravani629/retail-sales-data-analysis.git
+
+2. Move into project folder:
+   cd retail-sales-data-analysis
+
+3. Install required libraries:
+   pip install pandas openpyxl matplotlib
+
+4. Run the analysis file:
+   python analysis.py
+
+5. (Optional) Run visualization file:
+   python visualization.py

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_excel("Microsoft Excel (.xlsx).xlsx")
+df = pd.read_excel("retail_sales_data.xlsx")
 
 # Basic analysis
 print("First 5 rows:")

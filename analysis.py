@@ -1,12 +1,20 @@
-import pandas as pd
+iimport pandas as pd
 
 # Load dataset
 df = pd.read_excel("retail_sales_data.xlsx")
 
-# Basic analysis
+# Show data
 print("First 5 rows:")
 print(df.head())
 
+# Check columns (important for debugging)
+print("\nColumns in dataset:")
+print(df.columns)
+
+# Clean column names (recommended)
+df.columns = df.columns.str.strip()
+
+# Basic analysis
 print("\nTotal Sales:")
 print(df["Sales"].sum())
 

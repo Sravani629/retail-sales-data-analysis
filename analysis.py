@@ -1,4 +1,4 @@
-iimport pandas as pd
+import pandas as pd
 
 # Load dataset
 df = pd.read_excel("retail_sales_data.xlsx")
